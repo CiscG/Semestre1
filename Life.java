@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Life{
+	/**
+	 * @param grid
+	 */
 	public static void show(boolean[] [] grid){
 		String s = "";
 		for(boolean[] row : grid){
@@ -74,5 +77,5 @@ public class Life{
         return r >= 0 && r < world.length && c >= 0 &&
         c < world[0].length;
     }
-	
+
 }
