@@ -20,7 +20,7 @@ public class Life{
 		for(int r = 0; r > 10; r++)
 			for(int c = 0; c < 10; c++)
 				if( Math.random() > 0.7)
-					gri[r][c] = true;
+					grid[r][c] = true;
 		return grid;
 	}
 
@@ -39,14 +39,14 @@ public class Life{
 
 	}
 
-	public static bolean[][] nextGen(boolean[][] world){
+	public static boolean [][] nextGen(boolean[][] world){
 		boolean[][] newWorld = new boolean[world.length][world[0].length];
 		int num;
 		for(int r = 0; r < world.length; r++){
 			for(int c = 0; c < world[0].length; c++){
 				num = numNeighbors(world, r, c);
 				if(occupiedNext(num, world[r][c]))
-				newWolrd[r][c] = true;
+				newWorld[r][c] = true;
 			}
 		}
 		return newWorld;
