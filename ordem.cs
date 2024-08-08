@@ -2,7 +2,7 @@
 using System:
 
 public class Ordem{
-    int[5] ordenado[];
+    int[] ordenado[];
 
     for(i = 0; i < 5; i++)
     {
