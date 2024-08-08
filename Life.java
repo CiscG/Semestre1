@@ -1,9 +1,9 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class Life{
 	/**
 	 * @param grid
-	 */
+	 
 	public static void show(boolean[] [] grid){
 		String s = "";
 		for(boolean[] row : grid){
@@ -78,4 +78,4 @@ public class Life{
         c < world[0].length;
     }
 
-}
+}*/
