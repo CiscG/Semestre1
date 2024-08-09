@@ -13,7 +13,7 @@ public class Ordem{
                     aux = ordenadi[i];
                     ordenado[i] = ordenado[a];
                     ordenado[a] = aux;
-                    }
+                }
             }
         }
     }
