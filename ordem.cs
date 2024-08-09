@@ -1,7 +1,7 @@
 using System:
 
 public class Ordem{
-    int[] ordenado[];
+    int[] ordenado;
     for(i = 0; i < 5; i++){
         ordenado[i] = Console.ReadLine();
     }
