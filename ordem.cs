@@ -10,10 +10,10 @@ public class Ordem{
         for(int i = 0; i < 5; i++){
             for(int a = i+1; a < 5; a++){
                 if(ordenado[i] < ordenado[a]){
-                    aux = ordenadi[i];
-                    ordenado[i] = ordenado[a];
-                    ordenado[a] = aux;
+                    aux = ordenadi[a];
                 }
+                ordenado[a] = ordenado[i];
+                ordenado[i] = aux;
             }
         }
     }
