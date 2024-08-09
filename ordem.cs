@@ -3,7 +3,7 @@ using System:
 
 public class Ordem{
     int[] ordenado[];
-    for(i = 0; i < 5; i++)
+    for(i = 0; i < 4; i++)
     {
         ordenado[i] = Console.ReadLine();
     }
