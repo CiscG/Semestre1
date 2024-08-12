@@ -1,4 +1,4 @@
-package Semestre1;
+package semestre1;
 public class Teste{
     public static void main(String[] args){
         Caneta c1 = new Caneta();

@@ -1,4 +1,4 @@
-package Semestre1;
+package semestre1;
 public class Caneta {
     String modelo;
     String cor;

@@ -1,4 +1,4 @@
-/*import java.util.Scanner;
+/*package semestre1;
 
 public class Life{
 	/**
