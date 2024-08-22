@@ -12,6 +12,7 @@ public class Pilha {
     }
 
     /*public Object empilhar(Object insert){
+        teste;
         
     }*/
 }
