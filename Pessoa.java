@@ -5,6 +5,11 @@ public Class Pessoa{
 	String sexo;
 	public String fala(){
 		return nome;
-}
+	}
 
+	public Pessoa(String nome, int idade, String sexo){
+		this.nome = nome;
+		this.idade = idade;
+		this.sexo = sexo;
+	}
 }
